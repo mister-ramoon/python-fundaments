@@ -21,3 +21,9 @@ if stock >= 100 and stock <= 1000:
     print('El stock es suficiente')
 else:
     print('El stock no es suficiente')
+
+number = int(input('Ingresa un número: '))
+if number % 2 == 0:
+    print('El número es par')
+else:
+    print('El número es impar')

@@ -11,4 +11,5 @@ print(y_str == str(x)) # True
 
 print(y, x)
 tolerance = 0.00001
+print(abs(y-x))
 print(abs(y-x) < tolerance) # True
